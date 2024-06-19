@@ -145,8 +145,28 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/*ARCHER IMAGE*/
+/*#archermain-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #archermain {
     height: 600px;
     width: 100%;
-    background-image: url(../images/archermain.jpg);
+    background: url(../images/archermain.jpg) no-repeat;
+    /*ZOOM ANIMATION FOR ARCHER IMAGE*/
+  /*  animation-name: archermain-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
     }
+    to{
+        transform: scale(1.1);
+    }
+}*/

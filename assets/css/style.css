@@ -145,3 +145,8 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+#archermain {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/archermain.jpg);
+    }

@@ -89,11 +89,21 @@ main {
     /* Make main element take up surplus space and push footer down to the bottom of the page*/
     flex: 1 0 auto;
     margin-top: 47px;
-}
+    }
 
 /* Footer */
-footer {
-    background-color: orange;
+#social-networks {
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social-networks i {
+    font-size: 160px;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query for tablets and larger (768px and up) */

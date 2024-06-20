@@ -91,6 +91,12 @@ main {
     margin-top: 47px;
     }
 
+    #archermain {
+        height: 600px;
+        width: 100%;
+        background: url("") no-repeat center center/cover;
+        position: relative;
+
 /* Footer */
 #social-networks {
     display: flex;
@@ -139,6 +145,11 @@ main {
         /* Push main content down for larger header */
         margin-top: 79px;
     }
+    #archermain {
+        height: 600px;
+        width: 100%;
+        background-image: url("../images/archermain.jpg");
+        }
 }
 @media screen and (min-width: 992px) {
     #menu a:hover{
@@ -150,17 +161,18 @@ main {
 /*#archermain-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
-#archermain {
+/*#archermain {
     height: 600px;
     width: 100%;
-    background: url(../images/archermain.jpg) no-repeat;
+    background: url(../images/archermain.jpg) no-repeat;*/
+    
     /*ZOOM ANIMATION FOR ARCHER IMAGE*/
-  /*  animation-name: archermain-zoom;
+   /* animation-name: archermain-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
 }
 @keyframes hero-zoom {
     from{
@@ -169,4 +181,4 @@ main {
     to{
         transform: scale(1.1);
     }
-}*/
+}

@@ -12,7 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
     <meta name="description" content="Love Archery. Club for archers in Kerry, Ireland. Indoor archery">
-    <meta name="keywords" content="love archery, shoot, archery club, beginners, all-levels,Tralee, Ireland, Kerry, sport, Archery Ireland, IFAF">
+    <meta name="keywords"
+        content="love archery, shoot, archery club, beginners, all-levels,Tralee, Ireland, Kerry, sport, Archery Ireland, IFAF">
     <!-- Title -->
     <title>Love Archery</title>
     <!-- Favicon -->
@@ -27,41 +28,77 @@
     <!-- Header -->
     <header> <a href="index.html">
             <h1 class="logo">Love Archery</h1>
-            </a>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i>
-            </label>
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="joinus.html" class="active">Join Us</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-    
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="joinus.html" class="active">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- Main content -->
-    <main>Main content</main> 
+    <main>
+        <section id="joinus">
+            <form id="sign-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                div class="radio-buttons">
+                    <div>
+                        <label for="beginner">beginner</label>
+                        <input type="radio" name="level" id="beginner" value="beginner" required checked>
+                    </div>
+                    <div>
+                        <label for="intermediate">intermediate</label>
+                        <input type="radio" name="level" id="intermediate" value="intermediate" required>
+                    </div>
+                    <div>
+                        <label for="advanced">Advanced</label>
+                        <input type="radio" name="level" id="advanced" value="advanced" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Shoot!</button>
+            </form>
+        </section>
+    </main>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
         <ul id="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit us on our Facebook page (opens in a separate tab)">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit us on our Facebook page (opens in a separate tab)">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
             </li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit us on our Twitter page (opens in a separate tab)">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit us on our Twitter page (opens in a separate tab)">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
             </li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit us on our instagram page (opens in a separate tab)">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit us on our instagram page (opens in a separate tab)">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
             </li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit us on our youtube channel (opens in a separate tab)">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit us on our youtube channel (opens in a separate tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
             </li>
         </ul>
     </footer>
